@@ -1,0 +1,8 @@
+"configMapGenerator":
+- "literals":
+  - "ENV_VAR_ONE=foo"
+  - "ENV_VAR_TWO=bar"
+  "name": "special-config-2"
+"namePrefix": "staging-"
+"resources":
+- "../../base"
